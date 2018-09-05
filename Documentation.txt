@@ -1,0 +1,82 @@
+CashFlow card program
+
+Adapted from CashFlow game developed by the Rich Dad company
+Adapted by Naomi Burhoe: Copyright 2018
+
+Card distribution:
+The cards come in four varieties: Market, Doodad, and Big and Small Deals.
+These cards were adapted from the original Cash Flow game in order to provide for a more interesting gameplay experience.
+
+Market cards deal with fluctuations in the economy relating to real estate, business ventures, stocks, and other commodities.
+Players can possess cards affected by the market through purchases made using Big and Small Deal cards.
+Doodad cards relate to purchases made in daily life that affect overall financial wellbeing from as simple 
+as a night out on the town with friends to graduation parties, weddings, and major house repairs.
+
+
+Types of Market Cards: (40)
+1. Real Estate Buyers: houses, condos, apartments, businesses, etc (24)
+  A. Apartment (4)
+    Range ($25,000 - $45,000) per unit
+      3 for any size, 1 for 12+ unit  
+  B. Plex + Apartments (9)
+    Range-based ($1,000 - $30,000) + original costs (6)
+    Percentage-based (5% - 20%) + original cost (3)
+  C. House (3bed/2bath) (7)
+    Range-based ($5,000-$20,000) + original cost (4)
+    Percentage-based (10%-20%) + original cost (3)
+  D. House (2bed/1bath) (2)
+    Percentage-based (10%-20%) + original cost (2)
+  E. House + Condo (2bed/1bath) (2)
+    Range-based ($45,000-$65,000) (2)
+
+2. Stock Fluctuations: splits, reverse splits, crashes (4)
+  1 for each stock option (random stock, random fluctuation)
+   49/100 split
+   49/100 reverse split
+   1/50 crash
+
+3. Collectors: gold coins (5)
+   A. Collector (2)
+      1 $500, 1 $1000
+   B. Central Bank (3)
+      1 $1000, 2 $2000
+
+4. Damage to property (5)
+   A. Tenant (3)
+     2 $500, 1 $1000
+   B. Sewer line (2)
+     1 $1000, 1 $2000
+
+5. Business booms (cash flow increase) (2)
+  only for smaller businesses (random)
+    1 $250, 1 $400
+
+
+Types of Small Deals:
+1. Stock (20)
+   random stock, random value increase
+
+2. Real Estate (11) -- copy info from card
+   House (2bed/1bath)
+      2 great deals ($220+ cashflow)
+      1 zero cashflow
+      4 average deals($100-$200)
+   Condo (2bed/1bath)
+      3 average deals ($140-$220 cashflow)
+      1 zero cashflow
+
+3. Other (7) -- copy info from card
+   Coin Generation (2) 1/6 chance
+   Coin purchase (2) 1 $1000 for 5, 1 $3000 for 10
+   Lend money (1) 1/2 chance loss, 1/2 chance +$5000
+   Marketing Buy-in (2) $500 (keep) 1/2 chance gain $500 each time
+
+
+Types of Big Deals:
+1. Housing
+2. Businesses
+
+
+Types of Doodads:
+1. General
+2. Child-related
