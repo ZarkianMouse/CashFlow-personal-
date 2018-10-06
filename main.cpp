@@ -14,6 +14,9 @@ using std::endl;
 using std::vector;
 using std::list;
 
+const int STOCK_SIZE = 4;
+const int SMALL_SIZE = 11;
+const int BIG_SIZE = 36;
 int main()
 {
     srand(time(NULL));
@@ -21,13 +24,13 @@ int main()
     cout << "Hello world!" << endl;
 
     list<Stock> stock;
-    stock.assign(INIT_STOCK, INIT_STOCK+4);
+    stock.assign(INIT_STOCK, INIT_STOCK+STOCK_SIZE);
 
     list<Business> smBusi;
-    smBusi.assign(INIT_SMALL, INIT_SMALL+11);
+    smBusi.assign(INIT_SMALL, INIT_SMALL+SMALL_SIZE);
 
     list<Business> bigBusi;
-    bigBusi.assign(INIT_BIG, INIT_BIG+36);
+    bigBusi.assign(INIT_BIG, INIT_BIG+BIG_SIZE);
 
     bool loopFlag = true;
 
@@ -42,13 +45,15 @@ int main()
             << "F. (Bankruptcy Support Center)\n";
 
         cin >> c;
-        switch(c)
+
+
+        switch(toupper(c))
         {
             case 'A' : small(stock, smBusi);
                 break;
             case 'B' : big(bigBusi);
                 break;
-            case 'C': market(stock, smBusi, bigBusi);
+            case 'C' : market(stock, smBusi, bigBusi);
                 break;
             case 'D' : doodad();
                 break;
@@ -57,23 +62,6 @@ int main()
                      loopFlag = false;
                 break;
             case 'F' : cout << "Welcome to the Bankruptcy Support Center\n";
-                     bankruptcySellBack(smBusi, bigBusi);
-                break;
-
-
-            case 'a' : small(stock, smBusi);
-                break;
-            case 'b' : big(bigBusi);
-                break;
-            case 'c': market(stock, smBusi, bigBusi);
-                break;
-            case 'd' : doodad();
-                break;
-            case 'e' : cout << "Thanks for playing\n"
-                            << "Hope you had fun\n";
-                     loopFlag = false;
-                break;
-            case 'f' : cout << "Welcome to the Bankruptcy Support Center\n";
                      bankruptcySellBack(smBusi, bigBusi);
                 break;
 

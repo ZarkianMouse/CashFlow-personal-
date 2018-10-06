@@ -15,7 +15,7 @@ const int SMCARDS = 38;
 void small(std::list<Stock> &stock, std::list<Business> &busi)
 {
 
-    int s = rand() % 38;
+    int s = rand() % SMCARDS;
 
     if (s < 20)
     {
